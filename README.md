@@ -23,3 +23,20 @@ The design specifications for the MechaCar suspension coils dictate that the var
 The Variance is inconsistant in Lot 3 (170 lbs/sqin). 
 However, the variance is very low in Lot 1 and Lot 2 and meets design specification. 
 Overall, the variance is 62 which meets the design specifiation.
+
+
+## T-Tests on Suspension Coils
+<img width="769" alt="Screen Shot 2022-08-03 at 3 51 49 PM" src="https://user-images.githubusercontent.com/18197449/182696864-1346efa0-105f-464c-9b98-25a3cb23eb0b.png">
+
+Compared to standard significance level of .05, the p-values of **Lot 1 (1.0)** and **Lot 2 (0.6071669)** are higher. We fail to reject the null hypothesis. 
+However, with Lot 3's p-value of **0.04167797** being lower than .05, the null hypothesis is true. 
+
+
+## Study Design: MechaCar vs Competition
+
+A statistical study that can quantify how the MechaCar performs against the competition. In today's economy, consumers report maintencance costs and saftey socres being the top factors in choosing cars to purchase. We will test the metrics of maintainance costs and fuel efficiency to see it MechaCar acts as a longterm budget friendly option. 
+We will us an ANOVA to see if the distribution of fuel efficiency is better with a sample of MechaCar or samples of the competition. We can test multiple metrics at once. 
+
+Null Hypothesis. MechaCar's mean will be lower than the mean of the competition. Standard Significance. 
+
+
